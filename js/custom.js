@@ -5,8 +5,9 @@
 
     // HERO SLIDE
     $('.hero-slide').backstretch([
-      "../images/slideshow/commodore.jpg",
-      "../images/slideshow/two_minis.jpg"
+      "images/slideshow/commodore.jpg",
+      "images/slideshow/two_minis.jpg",
+      "images/slideshow/beetle.jpg"
     ],  {duration: 2000, fade: 750});
 
     // REVIEWS CAROUSEL
