@@ -8,28 +8,7 @@
       "images/slideshow/commodore.jpg",
       "images/slideshow/two_minis.jpg",
       "images/slideshow/beetle.jpg"
-    ],  {duration: 2000, fade: 750});
-
-    // REVIEWS CAROUSEL
-    $('.reviews-carousel').owlCarousel({
-    items:3,
-    loop:true,
-    dots: false,
-    nav: true,
-    autoplay: true,
-    margin:30,
-      responsive:{
-        0:{
-          items:1
-        },
-        600:{
-          items:2
-        },
-        1000:{
-          items:3
-        }
-      }
-    })
+    ],  {duration: 3000, fade: 750});
 
     // CUSTOM LINK
     $('.smoothscroll').click(function(){

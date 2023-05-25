@@ -26,7 +26,7 @@ https://www.tooplate.com/view/2133-moso-interior
   --pinterest-color:              #e60023;
   --whatsapp-color:               #128c7e;
 
-  --body-font-family:             'League Spartan', sans-serif;
+  --body-font-family:             'Lato', sans-serif;
 
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
@@ -607,124 +607,6 @@ strong {
 
 
 /*---------------------------------------
-  REVIEWS              
------------------------------------------*/
-.reviews-section {
-  background: var(--section-bg-color);
-}
-
-.reviews-carousel .owl-item img,
-.avatar-image {
-  border-radius: var(--border-radius-large);
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
-.reviews-carousel .owl-nav {
-  position: absolute;
-  top: -100px;
-  right: 0;
-}
-
-.reviews-carousel .owl-nav button.owl-next, 
-.reviews-carousel .owl-nav button.owl-prev {
-  background: var(--white-color);
-  border-radius: var(--border-radius-large);
-  width: 60px;
-  height: 60px;
-  margin: 5px;
-  transition: all 0.5s;
-}
-
-.reviews-carousel .owl-nav button.owl-next:hover, 
-.reviews-carousel .owl-nav button.owl-prev:hover {
-  background: var(--secondary-color);
-}
-
-.reviews-carousel .owl-prev:hover span::before, 
-.reviews-carousel .owl-next:hover span::before {
-  color: var(--white-color);
-}
-
-.reviews-carousel .owl-prev span, 
-.reviews-carousel .owl-next span {
-  display: block;
-  color: transparent;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-}
-
-.reviews-carousel .owl-prev span::before, 
-.reviews-carousel .owl-next span::before {
-  font-family: bootstrap-icons;
-  display: block;
-  font-size: var(--h4-font-size);
-  color: var(--secondary-color);
-}
-
-.reviews-carousel .owl-prev span::before {
-  content: "\f12f";
-}
-
-.reviews-carousel .owl-next span::before {
-  content: "\f138";
-}
-
-.reviews-thumb {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-}
-
-.reviews-body {
-  padding: 50px 40px;
-}
-
-.reviews-bottom {
-  background: var(--secondary-color);
-  background: linear-gradient(180deg, rgba(246,81,41,1) 0%, rgba(255,190,140,1) 100%);
-  position: relative;
-  padding: 10px 36px;
-}
-
-.reviews-bottom-up::before {
-  content: "";
-  display: block;
-  margin: auto;
-  width: 0;
-  height: 0;
-  border-bottom: 22px solid var(--secondary-color);
-  border-left: 24px solid transparent;
-  border-right: 24px solid transparent;
-  position: absolute;
-  top: -20px;
-  left: 36px;
-}
-
-.bi-star-fill {
-  color: var(--primary-color);
-}
-
-.reviews-section .custom-btn {
-  background: var(--facebook-color);
-}
-
-.reviews-section .custom-btn:hover {
-  background: transparent;
-  border-color: var(--facebook-color);
-  color: var(--facebook-color);
-}
-
-.reviews-bottom small {
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-normal);
-}
-
-
-/*---------------------------------------
   SHOP              
 -----------------------------------------*/
 .shop-section {
@@ -924,6 +806,26 @@ strong {
   color: var(--p-color);
 }
 
+
+/*---------------------------------------
+  AFFILIATE SECTION              
+-----------------------------------------*/
+
+.affiliations {
+  background-color: #DDDDDD;
+}
+
+.affiliate-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.affiliate-image img {
+  width: 100%;
+  padding: 5%;
+  border-radius: var(--border-radius-medium);
+}
 
 /*---------------------------------------
   SITE FOOTER              
