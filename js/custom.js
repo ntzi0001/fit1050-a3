@@ -5,9 +5,9 @@
 
     // HERO SLIDE
     $('.hero-slide').backstretch([
-      "images/slideshow/commodore.jpg",
-      "images/slideshow/two_minis.jpg",
-      "images/slideshow/beetle.jpg"
+      "images/slideshow/commodore.webp",
+      "images/slideshow/two_minis.webp",
+      "images/slideshow/beetle.webp"
     ],  {duration: 3000, fade: 750});
 
     // CUSTOM LINK
