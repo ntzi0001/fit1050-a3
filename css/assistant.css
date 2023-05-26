@@ -47,7 +47,10 @@
 	max-height: 350px;
 	width: 100%;
 	overflow: auto;
-
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 /* When the textarea gets focus, do something */
