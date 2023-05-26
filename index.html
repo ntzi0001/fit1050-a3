@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="description" content="Real Automotive - Mechanic in Huntingdale Victoria with 40 Years Experience">
-        <meta name="author" content="Tooplate">
+        <meta name="keywords" content="mechanic, car repair, auto shop, my car is making a funny noise">
 
         <title>Real Automotive</title>
 
         <link rel="icon" type="image/svg" href="images/favicon.svg">
-
+        
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
         <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="css/assistant.css" rel="stylesheet">
         
 <!--
 Modified from:
@@ -28,7 +29,6 @@ Modified from:
     </head>
 
     <body>
-
         <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><span class="tooplate-btn-bg-color">Real Automotive</span></a>
@@ -548,6 +548,22 @@ Modified from:
             </div>
         </footer>
 
+        <button class="open-button" onclick="openForm()"><i class="bi-patch-question"></i> Need some help?</button>
+        
+        <div class="chat-popup" id="chatForm">
+            <form class="form-container">
+                <h4>Virtual Assistant</h4>
+                <div id="responseArea" class="assistant-response">
+                    
+                </div>
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message..." name="msg" required id="userMessage"></textarea>
+
+                <button type="button" class="btn" onclick="sendMessage()">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -555,6 +571,7 @@ Modified from:
         <script src="js/jquery.backstretch.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/assistant.js"></script>
 
     </body>
 </html>
